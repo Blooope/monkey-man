@@ -1,0 +1,36 @@
+TO DO FOR PUBLIC IMPLEMENTATION:
+
+- Make everything in the MonkeyID section configurable
+  per server
+    - Auth channel [DONE]
+    - Story channel [DONE]
+    - Report channel [DONE]
+    - Bad word list [DONE]
+    - Log blacklist [DONE]
+    - Story archives [DONE]
+
+- Check if the user has admin perms instead of checking
+  role [DONE]
+
+- Make surveys per-server [DONE]
+
+- Make stories per-server [DONE]
+
+- Make it so you can't see logs from other servers, and
+  also disable checking them through DMs [DONE]
+
+- As this bot will be working with multiple servers, DM
+  commands will no longer work, so disable those or the
+  bot will probably crash [DONE]
+
+- Don't add a new config if one already exists for the
+  server [DONE]
+
+- Add failsafe in case bot does not make a new config
+  when added to a new server (if it's shut off, for instance) [DONE, UNTESTED]
+
+- Make it so the slur detector doesn't remove messages
+  based on infixations (or at least make it an option)
+
+- Make pretty much every global var per-server
+

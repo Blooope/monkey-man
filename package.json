@@ -1,0 +1,16 @@
+{
+  "name": "monkey-man-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot2.js",
+  "author": "Bloope",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "googleapis": "^74.2.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2",
+    "winston": "^3.3.3"
+  }
+}
